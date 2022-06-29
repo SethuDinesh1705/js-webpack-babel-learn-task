@@ -1,0 +1,29 @@
+$bg-color: #3333;
+$text-color: green;
+* {
+  color: $text-color;
+}
+.buttonrender {
+  margin-left: 500px;
+  display: inline-flex;
+  gap: 50px;
+}
+.content {
+  margin-left: 500px;
+  margin-top: 80px;
+}
+button {
+  padding: 10px;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+@font-face {
+  font-family: "MyWebFont";
+  src: url("../GemunuLibre-VariableFont_wght.ttf") format("woff2");
+}
+
+body {
+  font-family: "MyWebFont", Fallback, sans-serif;
+}
